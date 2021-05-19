@@ -1,0 +1,121 @@
+
+header {
+    background-color : white;
+    padding: 1rem;
+}
+
+
+h1 {
+    
+   font-size: 64px;
+    font-family : verdana,arial;
+    text-align : center;
+    color : #79330a;
+   }
+
+.logo{
+    display: inline;
+    align-items: center;
+}
+
+#logo {
+    float: left;
+    margin-right: 5em;
+    align-items: center;
+    
+}
+
+a:link {color: white;}
+a:visited {color: #eeeeee;}
+a:active {color:#ffaf97;}
+
+
+.menu {
+    font-size : 14pt;
+    font-family : verdana,arial;
+    text-align : center;
+    color :White;
+    background-color : #79330a;
+    
+    padding: 2rem;
+   }
+
+.menu a{
+    display: inline;
+    margin: 5rem;
+    padding: 1rem;
+    
+}
+
+  
+ h2, h3, h4  {
+    font-size : 22pt;
+    font-family : verdana,arial;
+    text-align : start;
+    color : #79330a;
+    margin: 2rem;
+    
+   }
+
+
+   .quienessomos {
+    display: block;
+    width: 100%;
+    background-color: #fff4f0;
+    padding-bottom: 5rem;
+
+}
+
+.quienessomos > article {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size : 18pt;
+    font-family : verdana,arial;
+    text-align : justify;
+    color:#1d1d1d;
+    display: block;
+    width: 80%;
+}
+
+#socias {
+    background-color: white;
+    padding-top: 2rem;
+    display: block;
+    width: 80%;
+ font-family : verdana,arial;
+    text-align : justify;
+    color:#1d1d1d;
+
+}
+
+#citacion {
+    font-family: "Sofia", sans-serif;
+    font-size: 22pt;
+}
+
+
+footer {
+    background-color: #79330a;
+    display: inline-block;
+    width: 100%;
+    font-size: 8pt;
+    font-family: verdana,arial;
+}
+
+footer > div {
+    background-color: #79330a;
+    float: left;
+    
+}
+
+#iconosredes {
+    width: 2%;
+    padding: 2rem;
+    float: right;
+    align-items: center;
+}
+
+footer > a {
+    display: inline;
+    align-items: center;
+}

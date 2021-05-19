@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <title>Nessa Tea Lab</title>
+    
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo"> <img id="logo"
+                src="img/logntl.jpg"
+                alt="Nessa Tea Lab" width="150px">
+            <h1> NESSA TEA LAB</h1>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="quienessomos.html">Quienes somos</a>
+        <a href="productos.html">Productos</a>
+        <a href="pedido.html">Haga su pedido</a>
+    </nav>
+
+    <main>
+
+        <h2>Haga su pedido</h2>
+
+        <section>
+            <article class="formulario">
+        <form action="show_data.html" target="_blank">
+            <h6><b>Sus datos:</b></h6>
+            <label for="firstname">Nombre: </label><input type="text" name="firstname" id="firstname"  placeholder="Ingrese su nombre aqui..."> <br><br>
+            <label for="lastname">Apellido:</label><input type="text" name="lastname"  id="lastname"   placeholder="Ingrese su apellido aqui..."> <br><br>
+            <label for="street">Direccion:</label><input type="text"  name="address"   id="address"    placeholder="Ingrese su dirección aqui..."> <br><br>
+            <label for="number">Numero:</label><input type="number"   name="number"    id="number"     placeholder="Ingrese el numero..">
+            <br><br>
+            <label for="city">Ciudad:</label>           <input type="text"     name="city"      id="city"     value="C.A.B.A."> <br><br>
+            <label for="zipcode">Código Postal:</label> <input type="text"     name="zipcode"   id="zipcode"  placeholder="Ingrese su codigo postal aqui..."> <br> <br>
+            <label for="telefono">Telefono:</label>     <input type="tel"      name="telefono"  id="telefono" placeholder="ingrese su telefono aqui ...."> <br><br>
+            <label for="BirthDate">Fecha Nac.:</label>  <input type="date"     name="birthdate" id="birthdate" > <br><br>
+            <label for="mail">Mail: </label>            <input type="email"    name="mail"      id="mail"      > <br><br>
+
+            <label for="gender">Identificacion de genero:</label> 
+                <input type="radio" name="gender" value="Masculino" id="hombre" checked>Masculino
+                <input type="radio" name="gender" value="Feminino"  id="mujer" >Feminino
+                <input type="radio" name="gender" value="NoBinario"   id="nobinario"  > No binario
+                <input type="radio" name="gender" value="Otro" id="otro"> Otro
+<br>
+                <h6><b>Datos del pedido:</b></h6>
+
+            <label for="productos"></label><p> Seleccione los productos:
+                <br>
+                <input type="checkbox" name="productos" value="producto1"> Blanco Floral
+                <input type="checkbox" name="productos" value="producto2"> Oolong de Fujan
+                <input type="checkbox" name="productos" value="producto3"> Black Power <br>
+                <input type="checkbox" name="productos" value="producto4"> Verde de Jasmim
+                <input type="checkbox" name="productos" value="producto5"> Frutos Rojos
+                <input type="checkbox" name="productos" value="producto6"> Ceylan <br>
+                <input type="checkbox" name="productos" value="producto7"> Blanco Citrico
+                <input type="checkbox" name="productos" value="producto8"> Verde nacional (misiones)
+                <input type="checkbox" name="productos" value="producto9"> Blanco Nacional (misiones)
+        
+<br>
+<br>
+            <label for="tamano">Tamaño:</label>
+            <select id="tamano" name="tamano">
+                <option value="chico">100 gr</option>
+                <option value="mediano">200 gr</option>
+                <option value="grande">600 gr</option>
+                <option value="super">Packet completo</option>
+            </select>
+            <br>
+            <br>
+            <label for="streetproducto">Direccion de entrega:</label>
+            <input type="text"  name="addressproducto"   id="address_producto"    placeholder="Ingrese la dirección de entrega..."> <br><br>
+
+            <label for="comentarios">Comentarios:</label>
+            <br> 
+            <textarea name="comentarios" rows="10" cols="60"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+        <p>Vamos generar su pedido y le contactaremos. 
+            <br><i>*Acuerde que la entrega se hará entre 3 y 7 dias hábiles. </i></p>
+
+    </article>
+</section>
+    </main>
+
+    <footer>
+
+        <div>
+            <ul>
+                <p><b>Mapeado</b></p>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="quienessomos.html">Quienes somos</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="pedido.html">Haga su pedido</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+
+        <span>
+            <a href="#" target="_blank">
+                <img id="iconosredes" src="icons/periscopio.png" alt="Mape">
+            </a>
+            <a href="https://www.instagram.com/nessatealab" target="_blank">
+                <img id="iconosredes" src="icons/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/nessatealab" target="_blank">
+                <img id="iconosredes" src="icons/facebook.png" alt="Facebook">
+            </a>
+
+            </a>
+        </span>
+
+    </footer>
+
+</body>
